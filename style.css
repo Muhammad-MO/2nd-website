@@ -153,25 +153,45 @@ form {
 input#ingredients{
 width:500px;
 height:50px;
-font-size:50px;
+font-size:20px;
 border-radius:10px;
 border:white;
 
 }
 
-form > button{
-  width:200px;
-  height:50px;
-  font-size:30px;
-  border-radius:10px;
-  background-color:#4261F5;
-  margin-left:10px;
-  border:white;
- 
 
   
-  }
-  #button{
+button, optgroup, select {
 
-    height:50px;
+  font-size:30px;
+  width:200px;
+  height:50px;
+  background-color:#4261F5;
+  margin-left:10px;
+  border-radius:20px;
+  border:white;
+
+  }
+
+  p{
+    font-size:30px;
+  }
+
+  Style.Attribute{
+   width:100px;
+
+  }
+  section{
+
+    width:2000px;
+    position:relative;
+  }
+  
+  h2{
+
+    display:block;
+  }
+
+  img{
+    display:block;
   }
