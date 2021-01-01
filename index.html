@@ -68,24 +68,22 @@
 </div>
 
 
-  <div class = "row2">
+  <div class ="row2">
   <div class="mx-auto py-5" style="width: 800px; font-size:60px; font-family: 'Nerko One';color:rgb(102, 41, 41);">
     <h1>SEARCH YOUR FAOURITE RECIPES</h1>
 
     
-  <form>
-  <form class="form-inline">
-    
-    <div class="form-group mx-3 mb-2">
-      <label for="Search" class="sr-only">Search</label>
-      <input type="search" class="form-control" id="Search" placeholder="search">
-    </div>
-    
-</form>    
-<div>
-  <h1>Recipes<span></span></h1>
-  
-</div>
+    <form>
+      
+      <input type="text" id="ingredients" value="type an ingredient here">
+      <button id="submit">Submit</button>
+
+       <!------- <button type="button" class="btn btn-primary">Submit</button>----->
+  </form>
+ 
+  <section>
+  </section>
+
   
     
   
@@ -97,7 +95,8 @@
   crossorigin="anonymous"></script>
 
 
-      
+
+  <script src="fetch.js"></script>  
 <script src ="script.js"></script>
     </body>
   </html>
