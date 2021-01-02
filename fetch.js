@@ -1,7 +1,7 @@
 // Find's recipe by id from Spoonacular
 function findRecipe(id) {
 
-    const queryUrl = "https://api.spoonacular.com/recipes/" + id + "/information?apiKey=155529f0b3fa47fa85162ba5c4581250"
+    const queryUrl = "https://api.spoonacular.com/recipes/" + id + "/information?apiKey=485cdff989f1474e9d84102838b6aa31"
 
     fetch(
         queryUrl,
@@ -16,7 +16,7 @@ function findRecipe(id) {
 // finds recipes by ingredients from Spoonacular
 function findRecipesByIngredients(ingredients) {
 
-    const queryUrl = "https://api.spoonacular.com/recipes/findByIngredients?apiKey=155529f0b3fa47fa85162ba5c4581250&number=25&ranking=1&ingredients=" + ingredients
+    const queryUrl = "https://api.spoonacular.com/recipes/findByIngredients?apiKey=485cdff989f1474e9d84102838b6aa31&number=25&ranking=1&ingredients=" + ingredients
 
     fetch(
         queryUrl,
