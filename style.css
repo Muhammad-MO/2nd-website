@@ -37,7 +37,7 @@ nav{
  }
 
  .H4{
-   width:2550;
+   width:800px;
 
  }
 
@@ -151,7 +151,7 @@ form {
 
 
 input#ingredients{
-width:500px;
+width:350px;
 height:50px;
 font-size:20px;
 border-radius:10px;
@@ -160,11 +160,12 @@ border:white;
 }
 
 
+
   
 button, optgroup, select {
 
   font-size:30px;
-  width:200px;
+  width: 312px;
   height:50px;
   background-color:#4261F5;
   margin-left:10px;
@@ -183,15 +184,17 @@ button, optgroup, select {
   }
   section{
 
-    width:2000px;
+    width:600px;
     position:relative;
   }
   
   h2{
 
     display:block;
+    width:312px;
   }
 
-  img{
+  .img{
     display:block;
+    border-radius:15px;
   }
