@@ -93,7 +93,7 @@ element.style{
 }
 
 div.button{
-    width:200px;
+    width:500px;
     font-size:40px;
 }
 
@@ -114,7 +114,7 @@ input#spoonacular-list, input#spoonacular-grid
 }
 element.style {
     float: left;
-    min-width: 320px;
+    min-width: 500px;
     margin-top: 24px;
     margin-left: 12px;
     font-size: 30px;
@@ -136,4 +136,6 @@ Style.Attribute {
 div#spoonacularPriceBrekdownTable{
     font-size:30px;
     line-height: 22px;
+    width:500px;
+    height:500px;
 }
