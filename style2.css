@@ -119,11 +119,11 @@ element.style {
     margin-left: 12px;
     font-size: 30px;
     padding: 20px;
-    line-height: 30px;
+    line-height:40px;
     
 }
 
-Style.Attribute {
+Style Attribute {
     position: absolute;
     top: 0px;
     left: 0%;
