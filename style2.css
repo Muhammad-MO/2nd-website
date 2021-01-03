@@ -98,7 +98,7 @@ div.button{
 }
 
 
-button, input, optgroup, select, textarea, label {
+button, input, optgroup, select, textarea, label, div {
     margin: 0px;
     font-family: inherit;
     font-size: 40px;
