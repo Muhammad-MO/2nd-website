@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<!----favicon------->
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+
+    <meta charset="UTF-8">
+    <title>Price Visualizer</title>
+    <meta name="author" content="David Urbansky">
+    <meta name="description" content="A spoonacular price visualizer demo for recipes.">
+    <meta name="keywords" content="spoonacular, API, cost, price, visualization, demo, app">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link href="style2.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+    <a href="index.html"><img src="image/recipe.png" alt="icondeadlft" width="150" height="130" class="rounded icon"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    <div id="app">
+        <h1>Price Visualizer</h1>
+
+        <h1>Create an informative and attractive price breakdown of a recipe.</h1>
+
+        <h1>Ingredients</h1>
+        <textarea v-model="ingredients" name="ingredients" style="height:150px;width:calc(100% - 20px);padding:10px"
+            placeholder="one ingredient per line, such as &quot;200 grams of cucumber&quot;"></textarea>
+
+        <h3>Number of Servings</h3>
+        <input name="servings" type="number" style="width:100px;padding:10px;" v-model="servings" />
+
+        <h3>View Style</h3>
+        <div>
+            <input id="spoonacular-grid" name="view" type="radio" checked="" value="1" v-model="viewStyle">
+            <label for="spoonacular-grid" onclick="">compact</label>
+            <input id="spoonacular-list" name="view" type="radio" value="2" v-model="viewStyle">
+            <label for="spoonacular-list" onclick="">full</label>
+            <span class="slide-button"></span>
+        </div>
+
+        <div class="button" @click="previewPriceWidget">Preview Price Visualizer</div>
+
+        <iframe id="previewWidget"></iframe>
+
+        
+        <div id="spoonacular">
+            
+            <a href="index.html">
+                <img src="image/recipe.png" width = "200" height = "200"
+                    alt="recipe logo"><br>
+                
+            </a>
+        </div>
+        </template>
+    </div>
+
+    <script src ="price.js"></script>
+
+   
+</body>
+
+</html>

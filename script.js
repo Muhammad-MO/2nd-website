@@ -63,7 +63,7 @@ function displayResults(data) {
             img.setAttribute('alt', data[i].title)
             h2.append(title)
             const button = document.createElement('button')
-            button.textContent = 'View Recipe'
+            button.textContent = 'Recipe & Steps'
             button.classList = "viewBtn"
             button.id = data[i].id
             section.append(h2)
@@ -82,8 +82,8 @@ function displayRecipe(obj, id) {
     const directions = obj.analyzedInstructions[0].steps.map(x => ({
             number: x.number,
             instruction: x.step,
-            ingredients: [...x.ingredients],
-            equipment: x.equipment
+            ingredients: x.ingredients,
+            
         }))
         // console.log(directions)
 
@@ -96,6 +96,7 @@ function displayRecipe(obj, id) {
 
     h2.textContent = title;
     div.append(h2)
+     
 
     for (let i = 0; i < directions.length; i++) {
 
@@ -115,7 +116,7 @@ function displayRecipe(obj, id) {
         
 
         p.textContent = stepNumber + " . " + instructions
-        
+      
         div.append(h3, h4, p)
     }
 
