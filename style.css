@@ -4,7 +4,12 @@ nav{
   width:2550px;
  }
  
-
+ navbar-light .navbar-nav{
+   color: black;
+   text-decoration: none;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-size: 60px;
+}
  
  /*style for favicon*/
  
@@ -22,16 +27,14 @@ nav{
      text-decoration: none;
      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
      font-size: 60px;
-     color: black;    
+         
    
  }
- .navbar-toggler{
-   
-   opacity: 0.3;
-   border:2px solid black;
- }
  
- 
+ .button{
+
+  border: 2px solid black;
+}
 
  .H4{
    width:800px;
@@ -58,23 +61,9 @@ nav{
   background-repeat:repeat-x;
 }
 
-
-
-
-.box{
-  width:800px;
-  height:600px;
-  border: solid black 5px;
-  position: absolute;
-  left:1000px;
-  top:550px;
-  background-color:grey;
-  opacity: 0.7;
-  border-radius:30px;
-
+.row2{
+  background-color:white;
 }
-
-
 
 
 
@@ -85,7 +74,6 @@ nav{
  }
 
 
- 
  mt-4{
  
  margin-top:(spacer *1.5)
@@ -100,23 +88,6 @@ nav{
    padding-right:(spacer * 0.5)
  }
 
-
- 
- /* Link Styles*/
-   .a:link {
-     color:black;
-     
-     opacity: 0.7;
-   }
- 
-   .a:hover {
-   opacity:1.0;
-     
-   }
- 
- 
- 
-
  
 /*background-color*/
 body {
@@ -124,8 +95,6 @@ body {
   width:2550px;
 
 }
-
-
 
 header {
 padding: 2rem 0;
@@ -135,18 +104,16 @@ align-items: center;
 justify-content: center;
 }
 
-/* search bar */
+/* Recipe search bar */
 form {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
-  position:relative;
+  
   right:50px;
   
 }
-
-
 
 input#ingredients{
 width:450px;
@@ -158,42 +125,66 @@ border:solid black
 }
 
 
-
+/*Button format*/
   
 button, optgroup, select {
 
   font-size:30px;
-  width: 200px;
+  width: 100px;
   height:50px;
   background-color:#4261F5;
   margin-left:10px;
-  border-radius:20px;
+  border-radius:10px;
   border:white;
-
+margin:10px;
   }
 
-  p{
-    font-size:30px;
-  }
+  
 
   Style.Attribute{
    width:100px;
 
   }
+
+  /*Recipe section format and styles
+
+  p{
+    font-size:30px;
+    padding-left:10px;
+  }*/
   section{
 
     width:600px;
-    position:relative;
+    
   }
-  
-  h2{
 
+    h1{
+    font-size:50px;
+     font-weight: bold;
+  }
+
+
+  h2, h3,p{
     display:block;
     width:312px;
+    padding-left:20px;
+    font-family: 'Indie Flower', cursive;
+    font-size:30px;
   }
 
   img{
     display:block;
-    border-radius:15px;
+    border-radius:5px;
+    padding-left:10px;
+    padding-bottom:10px;
+    width:250px;
+    height:200px;
     
   }
+  
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+  

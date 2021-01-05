@@ -63,7 +63,7 @@ function displayResults(data) {
             img.setAttribute('alt', data[i].title)
             h2.append(title)
             const button = document.createElement('button')
-            button.textContent = 'Recipe & Steps'
+            button.textContent = 'Recipe'
             button.classList = "viewBtn"
             button.id = data[i].id
             section.append(h2)
