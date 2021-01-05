@@ -53,13 +53,7 @@ nav{
   vertical-align: middle;
  }
  
-.row{
 
-  width: 2550px;
-  height: 900px;
-  background-image: url('image/recipe collage.jpg');
-  background-repeat:repeat-x;
-}
 
 .row2{
   background-color:white;
@@ -170,6 +164,12 @@ margin:10px;
     padding-left:20px;
     font-family: 'Indie Flower', cursive;
     font-size:30px;
+  }
+
+  h1{
+
+    font-size:70px;
+    font-family: 'Indie Flower', cursive;
   }
 
   img{
