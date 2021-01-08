@@ -181,10 +181,14 @@ margin:10px;
     height:200px;
     
   }
-  
+ 
+  img.img-fluid.col-lg-2.border.border-secondary.rounded-lg{
+
+    width:750px;
+    height:550px;
+  }
 
 
 
-  @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
   
