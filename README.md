@@ -1,5 +1,8 @@
 # About this site.
 
+
+![picture](image/screenshot.png)
+
 # User Interface
 
 # Programmig Lnguage used
