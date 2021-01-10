@@ -67,7 +67,22 @@ References,Javascript and bootstrap codes were used from the following websites
 5. https://spoonacular.com/food-api
 6. https://github.com/ddsky/spoonacular-widgets
 
-# Page Structure and Design
+# Page Structure Design 
 
-<h1> Layout and Design </h1>
+<h1> ********** Layout and Design ********** </h1>
+
+ The page layout was designed as such using Adobe wireframe
+![picture](image/interface-screenshot.png)
+
+Each page will include the navigation bar and icon
+
+Header will include a logo icon (CI20) and the main navigation.
+
+The main content section will display food examples .
+
+<h1> ********** Navigation Bar *********** </h1>
+
+The mavihaton bar was used with the help of bootstrap navigation which includes
+a collapsible hambuger button and an icon which when clicked bring the user
+to the homepage
 
