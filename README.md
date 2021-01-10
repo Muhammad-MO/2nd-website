@@ -72,7 +72,7 @@ References,Javascript and bootstrap codes were used from the following websites
 <h1> ********** Layout and Design ********** </h1>
 
  The page layout was designed as such using Adobe wireframe
-![picture](image/interface-screenshot.png)
+![picture](image/Interface-screenshot.png)
 
 Each page will include the navigation bar and icon
 
