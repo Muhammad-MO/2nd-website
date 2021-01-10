@@ -67,22 +67,35 @@ References,Javascript and bootstrap codes were used from the following websites
 5. https://spoonacular.com/food-api
 6. https://github.com/ddsky/spoonacular-widgets
 
-# Page Structure Design 
+# Page Structure Design and oepration
 
 <h1> ********** Layout and Design ********** </h1>
 
- The page layout was designed as such using Adobe wireframe
+The page layout was designed as such using Adobe wireframe
 ![picture](image/Interface-screenshot.png)
 
 Each page will include the navigation bar and icon
 
-Header will include a logo icon (CI20) and the main navigation.
+Header will include a logo icon and the main navigation.
 
 The main content section will display food examples .
 
-<h1> ********** Navigation Bar *********** </h1>
+<h2> ********** Navigation Bar *********** </h2>
 
 The mavihaton bar was used with the help of bootstrap navigation which includes
 a collapsible hambuger button and an icon which when clicked bring the user
 to the homepage
 
+<h2> ********** Main Page *********** </h2>
+
+The main page was designed with the intention of allowing the users to search for their favourite
+recipes by filling the form field with keywords like "chicken", "beef" , "lamb", "Pasta", "Fish"
+and an array of recipes matching their key words will be displayed.
+
+<h2> ********** Menu Price Estimator *********** </h2>
+
+This page allows the user to key in all the ingredients that they would
+like to use and upon clicking the "Price Visualizer" button a chart 
+with a list of the chosen ingredients and prices will be displayed
+
+![picture](image/price.png)
