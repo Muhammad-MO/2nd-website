@@ -124,7 +124,7 @@ border:solid black
 button, optgroup, select {
 
   font-size:30px;
-  width: 100px;
+  width: 150px;
   height:50px;
   background-color:#4261F5;
   margin-left:10px;
@@ -174,21 +174,28 @@ margin:10px;
 
   img{
     display:block;
-    border-radius:5px;
+    border-radius:10px;
     padding-left:10px;
     padding-bottom:10px;
-    width:250px;
-    height:200px;
+    width:450px;
+    height:400px;
     
   }
  
   img.img-fluid.col-lg-2.border.border-secondary.rounded-lg{
 
-    width:750px;
-    height:550px;
-  }
-
-
-
-
+    
+    height:350px;
+    
   
+  }
+  .border {
+    border: 4px solid beige!important;
+}
+
+img.rounded.icon{
+  width:250px;
+    height:300px;
+    
+}
+
