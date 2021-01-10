@@ -55,10 +55,6 @@ nav{
  
 
 
-.row2{
-  background-color:white;
-}
-
 
 
  /*paading and margin settings for container*/
@@ -140,12 +136,7 @@ margin:10px;
 
   }
 
-  /*Recipe section format and styles
-
-  p{
-    font-size:30px;
-    padding-left:10px;
-  }*/
+  /*Recipe section format and styles*/
   section{
 
     width:600px;
@@ -177,6 +168,7 @@ margin:10px;
     border-radius:10px;
     padding-left:10px;
     padding-bottom:10px;
+    padding-top:10px;
     width:450px;
     height:400px;
     
@@ -186,6 +178,11 @@ margin:10px;
 
     
     height:350px;
+    width:400px;
+    position:relative;
+    left:100px;
+    
+    
     
   
   }
