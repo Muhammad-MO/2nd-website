@@ -11,7 +11,7 @@ let results;
 // EVENT LISTENERS
 submitBtn.addEventListener('click', e => {
     e.preventDefault();
-    // Call spoonacular API and map results to flat object
+    // Call spoonacular API and map results 
     findRecipesByIngredients(ingredients.value)
 })
 
