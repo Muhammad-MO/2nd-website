@@ -59,22 +59,19 @@ nav{
 
  /*paading and margin settings for container*/
  .px-5 {
-   padding-left: (spacer * 3.0) 
-   
+   padding-left: (spacer * 3.0)  
  }
 
 
- mt-4{
- 
+ .mt-4{
  margin-top:(spacer *1.5)
  }
- px-4{
- 
+
+ .px-4{
    padding-right:(spacer * 1.5)
  }
  
- px-2{
- 
+ .px-2{
    padding-right:(spacer * 0.5)
  }
 
