@@ -71,7 +71,7 @@ References,Javascript and bootstrap codes were used from the following websites
 
 <h2> ********** Layout and Design ********** </h2>
 
-The page layout was designed as such using Adobe wireframe
+The page layout was designed with this deisgn originally as such using Adobe wireframe
 ![picture](image/Interface-screenshot.png)
 
 Each page will include the navigation bar and icon
@@ -79,6 +79,8 @@ Each page will include the navigation bar and icon
 Header will include a logo icon and the main navigation.
 
 The main content section will display food examples .
+
+The end outcome of the page was modified and may not appear exactly the same as the plan design
 
 <h2> ********** Navigation Bar **************** </h2>
 

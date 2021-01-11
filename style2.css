@@ -1,7 +1,8 @@
 nav{
     background-color: white;
-    width:2550px;
+    
    }
+   
    
   
    
@@ -15,15 +16,19 @@ nav{
    }
    
    /* styles for navigation bar*/
+
+   nav.navbar.navbar-expand-lg.navbar-light.bg-light{
+
+    height:130px;
+    background-color: white;
+  }
    
    .nav-link{
-       
-       text-decoration: none;
-       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-       font-size: 60px;
-       color: black;    
      
-   }
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-size: 30px;
+}
    .navbar-toggler{
      border:2px solid black;
    }
@@ -32,7 +37,7 @@ nav{
     
   }
   #app {
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Open Sans', sans-serif;
     
     max-width: 800px;
     margin-left: auto;

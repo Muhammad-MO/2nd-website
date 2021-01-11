@@ -50,7 +50,7 @@ function displayResults(data) {
     const section = document.querySelector("section")
     section.innerHTML = ''
 
-    for (let i = 0; i < data.length; i++) {
+    for (let i = 1; i < data.length; i++) {
             console.log("data[i]: ", data[i])
             // recipe title
             const title = recipeTitle.textContent = data[i].title
