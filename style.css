@@ -59,12 +59,12 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light{
 
  /*paading and margin settings for container*/
  .px-5 {
-   padding-left: (spacer * 3.0)  
+   padding-left:(spacer * 3.0)  
  }
 
 
  .mt-4{
- margin-top:(spacer *1.5)
+ margin-top:(spacer * 1.5)
  }
 
  .px-4{
