@@ -55,8 +55,13 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light{
   vertical-align: middle;
  }
  
+ .row {
+  padding-left:5px;
+  margin-top:5px;
 
- /*paading and margin settings for container*/
+ }
+
+ /*paading and margin settings for container
  .px-5 {
    padding-left: (spacer * 3.0);
  }
@@ -73,13 +78,11 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light{
  .px-2 {
    padding-right: (spacer * 0.5);
  }
-
+*/
  
 /*background-color*/
 body {
   background-color:beige;
-  
-
 }
 
 header {
