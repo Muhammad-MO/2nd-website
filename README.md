@@ -112,6 +112,18 @@ The Following tests was conducted
 
 ![picture](image/w3-testscreenshot.png)
 
-2) https://jigsaw.w3.org/
+2)https://jigsaw.w3.org/
 
 ![picture](image/w3jigsaw-test.png)
+
+3) Buttons
+
+The Search button works exactly as intended
+![picture](image/testsearchbutton.png)
+
+The home button brings the user back to home page as intended
+[picture](image/homebuttontest.png)
+
+The price estimator button shows the intended price breakdown
+[picture](image/price_estimator_test.png)
+
