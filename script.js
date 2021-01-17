@@ -59,6 +59,7 @@ function displayResults(data) {
                 // image
             const img = document.createElement('img')
                 // section tag from HTML
+                
             img.setAttribute('src', data[i].image)
             img.setAttribute('alt', data[i].title)
             h2.append(title)
