@@ -110,6 +110,6 @@ The Following tests was conducted
 
 1)https://validator.w3.org/nu/
 
-![picture](image/W3-test screenshot.png)
+![picture](image/w3-testscreenshot.png)
 
 2) https://jigsaw.w3.org/
