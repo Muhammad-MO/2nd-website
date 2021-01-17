@@ -122,8 +122,8 @@ The Search button works exactly as intended
 ![picture](image/testsearchbutton.png)
 
 The home button brings the user back to home page as intended
-[picture](image/homebuttontest.png)
+![picture](image/homebuttontest.png)
 
 The price estimator button shows the intended price breakdown
-[picture](image/price_estimator_test.png)
+![picture](image/price_estimator_test.png)
 
