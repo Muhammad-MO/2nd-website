@@ -105,3 +105,11 @@ with a list of the chosen ingredients and prices will be displayed
 ![picture](image/price.png)
 
 # Testing
+
+The Following tests was conducted
+
+1)https://validator.w3.org/nu/
+
+![picture](image/W3-test screenshot.png)
+
+2) https://jigsaw.w3.org/
