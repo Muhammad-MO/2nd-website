@@ -35,9 +35,6 @@ The users will also be able to get a price estimate of the ingredients they inte
 The future plans for this wensite is to include a calorie calculator where users can calculate and find out
 how much Kcal they are consuming by keying in the ingredients and quantity
 
-# Testing
-
-
 # Deployment
 
 THe site was deployed on Github via this link
@@ -74,19 +71,10 @@ References,Javascript and bootstrap codes were used from the following websites
 The page layout was designed with this deisgn originally as such using Adobe wireframe
 ![picture](image/interface.png)
 
-Each page will include the navigation bar and icon
-
-Header will include a logo icon and the main navigation.
-
-The main content section will display food examples .
-
-The end outcome of the page was modified and may not appear exactly the same as the plan design
-
-<h2> ********** Navigation Bar **************** </h2>
-
-The mavihaton bar was used with the help of bootstrap navigation which includes
-a collapsible hambuger button and an icon which when clicked bring the user
-to the homepage
+Header includes a logo which when click brings user to homepage.
+The main content section will display food examples and a brief write up about the website.
+Users will be able to search recipes based on key ingredient keyed in
+Users will be able to navigate to a menu price estimator when clicking on the link
 
 # Function & Operation
 
@@ -100,7 +88,12 @@ and an array of recipes matching their key words will be displayed.
 
 This page allows the user to key in all the ingredients that they would
 like to use and upon clicking the "Price Visualizer" button a chart 
-with a list of the chosen ingredients and prices will be displayed
+with a list of the chosen ingredients and prices and chart will be displayed
+
+<h2> ********** Recipe Button *********** </h2>
+
+Clicking the recipe button allows the user to see the ingredients
+and steps of the recipe
 
 ![picture](image/price.png)
 
@@ -118,12 +111,19 @@ The Following tests was conducted
 
 3) Buttons
 
-The Search button works exactly as intended
+a)The Search button was tested and works exactly as intended. Users are able too see a list of 
+recipes after keying in the main ingredient and clicking the search button
 ![picture](image/testsearchbutton.png)
 
-The home button brings the user back to home page as intended
+b)The recipe button was tested and worked exactly as intended. Users are able to see the ingredients and steps
+when clicking on the button
+![picture](image/recipescreenshot.png)
+
+
+b)The home button was tested. Clicking it brings the user back to home page as intended
 ![picture](image/homebuttontest.png)
 
-The price estimator button shows the intended price breakdown
+c)The price estimator was tested. Clicking the button after keying in your groceries 
+shows the user thr price breakdown and chart
 ![picture](image/price_estimator_test.png)
 
