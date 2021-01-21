@@ -73,10 +73,10 @@ form {
 
 input#ingredients {
 width:350px;
-height:50px;
-font-size:40px;
+height:40px;
+font-size:18px;
 border-radius:10px;
-border:solid beige;
+border:solid orange;
 
 }
 
@@ -85,9 +85,9 @@ border:solid beige;
   
 button, optgroup, select {
 
-  font-size:30px;
+  font-size:20px;
   width: 150px;
-  height:50px;
+  height:40px;
   background-color:#4261F5;
   margin-left:10px;
   border-radius:10px;
@@ -134,7 +134,7 @@ button, optgroup, select {
   img {
     display:block;
     border-radius:10px;
-    padding-left:10px;
+    padding-left: 10px;
     padding-bottom:10px;
     padding-top:10px;
     width:450px;
