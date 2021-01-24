@@ -127,3 +127,7 @@ c)The price estimator was tested. Clicking the button after keying in your groce
 shows the user thr price breakdown and chart
 ![picture](image/price_estimator_test.png)
 
+d)The apiKey from spooncaular was tested to see if results were able to be retrieved using postman
+![picture](image/spoonacularAPItest.png)
+
+ 
