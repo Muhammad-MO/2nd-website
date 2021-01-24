@@ -109,7 +109,7 @@ The Following tests was conducted
 
 ![picture](image/w3jigsaw-test.png)
 
-3) Buttons
+3) Buttons and Links
 
 a)The Search button was tested and works exactly as intended. Users are able too see a list of 
 recipes after keying in the main ingredient and clicking the search button
@@ -119,15 +119,20 @@ b)The recipe button was tested and worked exactly as intended. Users are able to
 when clicking on the button
 ![picture](image/recipescreenshot.png)
 
-
 b)The home button was tested. Clicking it brings the user back to home page as intended
 ![picture](image/homebuttontest.png)
 
-c)The price estimator was tested. Clicking the button after keying in your groceries 
+c)The price estimator button was tested. Clicking the button after keying in your groceries 
 shows the user thr price breakdown and chart
 ![picture](image/price_estimator_test.png)
 
+d)The link to the price estimator page works as intended when being clicked
+![picture](image/linktest.png)
+
 d)The apiKey from spooncaular was tested to see if results were able to be retrieved using postman
+Results were able to be fetched from Spoonacular API.
 ![picture](image/spoonacularAPItest.png)
+
+
 
  
