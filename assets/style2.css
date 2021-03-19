@@ -1,13 +1,5 @@
 
 
-
-a.nav-link{
-
-    font-size:40px;
-    color: white;
-  
-  }
-
    /*style for favicon*/
    
    .icon{
@@ -17,6 +9,12 @@ a.nav-link{
      padding-top:10px;
    }
    
+
+/*styles for link*/
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255);
+    font-size:40px;
+  }
    .body {
     background-color: beige;
     

@@ -8,17 +8,12 @@
    bottom:10px;
    padding-top:10px;
  }
- 
- /* styles for navigation bar*/
 
 /*styles for link*/
-a.nav-link{
-
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255,255,255);
   font-size:40px;
-  color: white;
-
 }
-
 /*form styles*/
 
  .form-inline .form-control {
