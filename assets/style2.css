@@ -97,8 +97,9 @@ button, input, optgroup, select, textarea, label, div {
     font-family: inherit;
     font-size: 40px;
     line-height: inherit;
-    width:20;
-    height:20;
+    width:100%;
+    height:100%;
+  
 
 }
 
