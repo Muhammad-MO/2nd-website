@@ -49,13 +49,13 @@
         <h2>Type your ingredients and the quantity to get a price estimate of the groceries.</h2>
 
         <h1>Ingredients</h1>
-        <textarea name="ingredients" style="height:150px;width:calc(100% - 20px);padding:10px"
+        <textarea v-model="ingredients" name="ingredients" style="height:150px;width:calc(100% - 20px);padding:10px"
             placeholder="one ingredient per line, such as &quot;200 grams of cucumber&quot;"></textarea>
 
-        <h1>Number of Servings</h1>
-        <input name="servings" type="number" style="width:100px;padding:10px;" v-model="servings" />
+        <h3>Number of Servings</h3>
+        <textarea name="servings" type="number" style="width:100px;height:50px;padding:10px;" v-model="servings"></textarea>
 
-        <h3>View Style</h3>
+     
         <div>
             <input id="spoonacular-grid" name="view" type="radio" checked="" value="1" v-model="viewStyle">
             <label for="spoonacular-grid" onclick="">compact</label>
