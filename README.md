@@ -133,6 +133,32 @@ d)The apiKey from spooncaular was tested to see if results were able to be retri
 Results were able to be fetched from Spoonacular API.
 ![picture](image/spoonacularAPItest.png)
 
+# Resubmission 
+
+This project had to be re-submitted because of the following errors which was recitifed or minimized
+
+1. Balanced layout present with key and supporting interactions judiciously grouped, Site not straightforward to navigate or use., While accessibility is demonstrated through use of alt attributes, a few of the alt tags are not accurate for the images (eg. "responsive image" is not considered a good alt attribute). Every CTA offers very low contrast. Further, there is no way to navigate across the different pages without using the browser's back button.
+
+<b>correction done<b>: image'alt' tags in index page were changed to describe the actual image and images were resized
+to ensure responsiveness
+
+
+2. Obvious to user how to interact with the site, However, there is no feedback added for error handling.
+
+![picture](image/Alert.png)
+
+<b>correction done<b>: Alert box appear to remind users to enter ingredients correctly without spelling mistakes
+
+3. No	HTML and CSS code doesnt pass through the official validator without any issues, 4 CSS errors. 11 errors and 2 warnings in HTML on https://muhammad-mo.github.io/Project2-Recipe-Database/menuprice2.html
+
+<b>correction done<b>: Errors were minimized 
+
+4. 	File naming and directory is inconsistent.
+
+<b>correction done<b>:  CSS files placed in assets folder
+                     :  JS files were renamed 
+                     :  All images are put into an image folder
+
 
 
  
