@@ -43,7 +43,7 @@ body {
 }
 
 header {
-padding: 2rem 0;
+padding: 20rem;
 display: flex;
 flex-flow: column wrap;
 align-items: center;
