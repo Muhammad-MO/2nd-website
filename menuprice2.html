@@ -49,7 +49,7 @@
         <h2>Type your ingredients and the quantity to get a price estimate of the groceries.</h2>
 
         <h1>Ingredients</h1>
-        <textarea v-model="ingredients" name="ingredients" style="height:150px;width:calc(100% - 20px);padding:10px"
+        <textarea name="ingredients" name="ingredients" style="height:150px;width:calc(100% - 20px);padding:10px"
             placeholder="one ingredient per line, such as &quot;200 grams of cucumber&quot;"></textarea>
 
         <h1>Number of Servings</h1>
@@ -64,7 +64,10 @@
             <span class="slide-button"></span>
         </div>
 
-        <div class="button" @click="previewPriceWidget">View Price Estimator</div>
+
+      
+        <div class="button" @click="previewPriceWidget">View Price Estimator></div>
+        
 
         <iframe id="previewWidget"></iframe>
 
