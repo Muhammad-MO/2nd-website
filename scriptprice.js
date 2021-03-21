@@ -6,7 +6,7 @@
     data: function () {
         return {
             spoonacularApiKey: '478fd21148ea49e49a273fb374b1c006', 
-            servings: 2,
+            
             viewStyle: 1,
             ingredients: '',
         };

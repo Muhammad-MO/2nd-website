@@ -87,15 +87,15 @@ input#spoonacular-list{
 
 /* styles for price button and text area */
 div.button{
-    width:500px;
-    font-size:40px;
+    width:300px;
+    font-size:30px;
 }
 
 
 button, input, optgroup, select, textarea, label, div {
     margin: 0px;
     font-family: inherit;
-    font-size: 40px;
+    font-size: 30px;
     line-height: inherit;
     width:100%;
     height:100%;
@@ -103,4 +103,7 @@ button, input, optgroup, select, textarea, label, div {
 
 }
 
+button.navbar-toggler {
+    width:150px;
+}
 
