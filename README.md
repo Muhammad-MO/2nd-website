@@ -66,7 +66,7 @@ References,Javascript and bootstrap codes were used from the following websites
 
 # Page Structure Design 
 
-<h2> ********** Layout and Design ********** </h2>
+<h2> Layout and Design </h2>
 
 The page layout was designed with this deisgn originally as such using Adobe wireframe
 ![picture](image/interface.png)
@@ -78,19 +78,19 @@ Users will be able to navigate to a menu price estimator when clicking on the li
 
 # Function & Operation
 
-<h2> ********** Main Page ********************** </h2>
+<h2> Main Page </h2>
 
 The main page was designed with the intention of allowing the users to search for their favourite
 recipes by filling the form field with keywords like "chicken", "beef" , "lamb", "Pasta", "Fish"
 and an array of recipes matching their key words will be displayed.
 
-<h2> ********** Menu Price Estimator *********** </h2>
+<h2> Menu Price Estimator </h2>
 
 This page allows the user to key in all the ingredients that they would
 like to use and upon clicking the "Price Visualizer" button a chart 
 with a list of the chosen ingredients and prices and chart will be displayed
 
-<h2> ********** Recipe Button *********** </h2>
+<h2> Recipe Button </h2>
 
 Clicking the recipe button allows the user to see the ingredients
 and steps of the recipe
