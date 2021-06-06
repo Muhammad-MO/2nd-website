@@ -13,22 +13,39 @@ submitBtn.addEventListener('click', e => {
     e.preventDefault();
     // Call spoonacular API and map results 
     findRecipesByIngredients(ingredients.value)
+   
+    //if(e.target.value === ""){
+
+       // alert("You cannot leave this field empty. Please key in an ingredient")
+    //}
+    
+    
 })
 
 document.body.addEventListener('click', e => {
+ 
     if (e.target.className === 'viewBtn') {
-        // console.log(e.target.id)
+        console.log(e.target.id)
         e.preventDefault();
         findRecipe(e.target.id)
     }
+
+  
 })
 
 ingredients.addEventListener('click', e => {
     // e.preventDefault();
-    if (e.target.value === "type an ingredient here") {
+    if (e.target.value === "") {
         ingredients.value = ""
+
+        alert(" There will be no results unless you key in a valid ingredient before searching.")
     }
 })
+
+
+
+
+
 
 
 // FUNCTIONS
@@ -47,6 +64,8 @@ function mapResults(data) {
 }
 
 function displayResults(data) {
+
+    
     const section = document.querySelector("section")
     section.innerHTML = ''
 
