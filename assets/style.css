@@ -153,12 +153,12 @@ button, optgroup, select {
 
   img {
     display:block;
-    border-radius:10px;
-    padding-left: 10px;
-    padding-bottom:10px;
-    padding-top:10px;
+    border-radius:15px;
+    padding:10px;
     width:450px;
     height:400px;
+    text-align: center;
+ 
     
   }
  
@@ -179,11 +179,8 @@ img.rounded.icon {
     
 }
 
-section{
 
-  width:1000px;
-  height:500px;
-}
+
 
 .post{
   text-align: center;
