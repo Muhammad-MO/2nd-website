@@ -92,15 +92,10 @@ function displayRecipe(obj, id) {
     const div = document.createElement('div')
     div.classList = id
     const h2 = document.createElement('h2');
-
     const currentRec = document.getElementById(id)
     let p;
 
     h2.textContent = title;
-    h2.textContent ="Ingredients:"
-   
-    
-    
     div.append(h2)
      
 
@@ -113,57 +108,19 @@ function displayRecipe(obj, id) {
 
         console.log(directions[i])
 
-        //const stepNumber = directions[i].number;
-        //const instructions = directions[i].instruction;
+        const stepNumber = directions[i].number;
+        const instructions = directions[i].instruction;
         const ingredients = directions[i].ingredients;
         
 
-        ingredients.forEach(x => h3.textContent =  x.name)
+        ingredients.forEach(x => h3.textContent = "Ingredients: " + x.name)
         
 
-        //p.textContent = stepNumber + " . " + instructions
-      
-        div.append(h3, h4, p)
-        
-    }
-    
-       
-    p.textContent = "Steps:"
-
-   
-    for (let i = 0; i < directions.length; i++) {
-
-        p = document.createElement('p')
-
-        const h3 = document.createElement('h3')
-        const h4 = document.createElement('h4')
-
-        console.log(directions[i])
-
-        const stepNumber = directions[i].number;
-        const instructions = directions[i].instruction;
-        
-
-    
-        //const ingredients = directions[i].ingredients;
-        
-
-        //ingredients.forEach(x => h3.textContent = "Ingredients: " + x.name)
-        
-       
         p.textContent = stepNumber + " . " + instructions
       
         div.append(h3, h4, p)
     }
 
-
-
-
-
     currentRec.after(div)
 
 }
-
-// this is for testing only to be deleted after dploy//
-
-// this is for testing only to be deleted after dploy//
