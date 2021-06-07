@@ -10,19 +10,45 @@
    
 
 /*styles for navigation bar and navigation link*/
-.navbar-transparent .navbar-nav .nav-link {
+.navbar-light .navbar-nav .nav-link {
     
-    font-size:30px;
+    font-size:50px;
+    font-family: 'Pacifico', cursive;
   }
+  
 
 
-
- button.navbar-toggler{
+  button.navbar-toggler.collapsed{
 
     width:80px;
     height:40px;
-    border:2px solid black;
+    border:1px solid black;
+    background-color:white;
+    opacity:2.0;
  }
+
+ button.navbar-toggler{
+
+  width:80px;
+  height:40px;
+  border:1px solid black;
+  background-color:white;
+  opacity:2.0;
+}
+
+img.rounded.icon {
+    width:120px;
+      height:120px;
+      
+  }
+  
+
+
+
+
+
+
+
 
    .body {
     background-color: beige;
