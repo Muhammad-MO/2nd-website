@@ -114,50 +114,43 @@ The Following tests was conducted
 a)The Search button was tested and works exactly as intended. Users are able too see a list of 
 recipes after keying in the main ingredient and clicking the search button
 ![picture](image/testsearchbutton.png)
+![picture](image/searchresult.png)
 
 b)The recipe button was tested and worked exactly as intended. Users are able to see the ingredients and steps
 when clicking on the button
-![picture](image/recipescreenshot.png)
+![picture](image/recipesteps.png)
 
-b)The home button was tested. Clicking it brings the user back to home page as intended
+c)The home button was tested. Clicking it brings the user back to home page as intended
 ![picture](image/homebuttontest.png)
 
-c)The price estimator button was tested. Clicking the button after keying in your groceries 
+
+d)The price estimator button was tested. Clicking the button after keying in your groceries 
 shows the user thr price breakdown and chart
 ![picture](image/price_estimator_test.png)
 
-d)The link to the price estimator page works as intended when being clicked
+e)The link to the price estimator page works as intended when being clicked
 ![picture](image/linktest.png)
 
-d)The apiKey from spooncaular was tested to see if results were able to be retrieved using postman
+f)The apiKey from spooncaular was tested to see if results were able to be retrieved using postman
 Results were able to be fetched from Spoonacular API.
 ![picture](image/spoonacularAPItest.png)
 
-# Resubmission 
+4) Valiation
 
-This project had to be re-submitted because of the following errors which was recitifed or minimized
+  The user is prompted to key in a valid ingredient, failing which will render a null result.
 
-1. Balanced layout present with key and supporting interactions judiciously grouped, Site not straightforward to navigate or use., While accessibility is demonstrated through use of alt attributes, a few of the alt tags are not accurate for the images (eg. "responsive image" is not considered a good alt attribute). Every CTA offers very low contrast. Further, there is no way to navigate across the different pages without using the browser's back button.
+  ![picture](image/validation.png)
 
-<b>correction done</b>: image'alt' tags in index page were changed to describe the actual image and images were resized
-to ensure responsiveness
+5) Responsiveness
+
+The site works well with mobile devices. Images are not skewed when screen is resize.
+The grid column layout works well.
+
+![picture](image/responsive.png)
+
+6) 
 
 
-2. Obvious to user how to interact with the site, However, there is no feedback added for error handling.
-
-![picture](image/Alert.png)
-
-<b>correction done</b>: Alert box appear to remind users to enter ingredients correctly without spelling mistakes
-
-3. No	HTML and CSS code doesnt pass through the official validator without any issues, 4 CSS errors. 11 errors and 2 warnings in HTML on https://muhammad-mo.github.io/Project2-Recipe-Database/menuprice2.html
-
-<b>correction done</b>: Errors were minimized 
-
-4. 	File naming and directory is inconsistent.
-
-<b>correction done</b>:  CSS files placed in assets folder
-                     :  JS files were renamed 
-                     :  All images are put into an image folder
 
 
 
