@@ -27,7 +27,6 @@ body {
     
   font-size:50px;
   font-family: 'Pacifico', cursive;
-  
 }
 
 /*form styles*/
@@ -213,5 +212,6 @@ img.rounded.icon {
 }
 
 a:hover{
- color: red;
+ background-color: magenta;
+ 
 }
