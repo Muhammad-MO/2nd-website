@@ -103,21 +103,21 @@ The Following tests was conducted
 
 2)Buttons and Links
 
-a)The Search button was tested and works exactly as intended. Users are able too see a list of recipes after keying in the main ingredient and clicking the search button
+a) The Search button was tested and works exactly as intended. Users are able too see a list of recipes after keying in the main ingredient and clicking the search button
 ![picture](image/testsearchbutton.png)
 ![picture](image/searchresult.png)
 
-b)The recipe button was tested and worked exactly as intended. Users are able to see the ingredients and steps when clicking on the button.
+b) The recipe button was tested and worked exactly as intended. Users are able to see the ingredients and steps when clicking on the button.
 ![picture](image/recipesteps.png)
 
-c)The home button was tested. Clicking it brings the user back to home page as intended.
+c) The home button was tested. Clicking it brings the user back to home page as intended.
 ![picture](image/homebuttontest.png)
 
 
-d)The price estimator button was tested. Clicking the button after keying in your groceries,shows the user thr price breakdown and chart.
+d) The price estimator button was tested. Clicking the button after keying in your groceries,shows the user thr price breakdown and chart.
 ![picture](image/price_estimator_test.png)
 
-e)The link to the price estimator page works as intended when being clicked.
+e) The link to the price estimator page works as intended when being clicked.
 ![picture](image/linktest.png)
 
 f)The apiKey from spooncaular was tested to see if results were able to be retrieved using postman. Results were able to be fetched from Spoonacular API.
